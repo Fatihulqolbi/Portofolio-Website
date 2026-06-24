@@ -7,7 +7,7 @@ export default function EducationSection() {
   return (
     <section id="education" className="section-gap">
       <div className="container-main">
-        <SectionLabel number="04" text="Education" />
+        <SectionLabel text="Education" />
 
         <Reveal>
           <h2 className="heading-lg mb-12">
