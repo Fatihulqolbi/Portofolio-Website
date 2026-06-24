@@ -132,3 +132,5 @@ export async function GET() {
     return NextResponse.json({ error: "Failed to reset DB" }, { status: 500 });
   }
 }
+
+export const dynamic = 'force-dynamic';
